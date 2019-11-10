@@ -62,7 +62,7 @@ body {
 
 .session-item address, .session-item time {
     font-size: 12px;
-    color: #b0564e
+    color: #007B98
 }
 
 .cv-skill-grid {
@@ -83,8 +83,8 @@ body {
 }
 
 .cv-title-1 {
-    color: #b0564e;
-    border-bottom: 2px solid #b0564e;
+    color: #007B98;
+    border-bottom: 2px solid #007B98;
     font-size: 20px;
     text-transform: uppercase;
     margin: 20px 0 10px;
@@ -109,7 +109,7 @@ body {
 }
 
 .cv-txt-1 {
-    color: #b0564e;
+    color: #007B98;
     position: relative;
     top: -5px;
     font-size: 12px
@@ -126,7 +126,11 @@ body {
 }
 
 .ui-width-expand {
-   flex-grow: 1;
+   flex-basis: calc(100% - 140px);
+}
+
+.ui-width-auto {
+    flex-basis: 132px;
 }
 
 .buttons-list .btn {
@@ -140,27 +144,27 @@ body {
 
 .btn-app {
     color: #fff;
-    background-color: #b0564f;
-    border-color: #b0564e;
+    background-color: #007B98;
+    border-color: #007B98;
 }
 .btn-app:focus,
 .btn-app.focus {
     color: #fff;
-    background-color: #b0564e;
+    background-color: #007B98;
     border-color: #122b40;
 }
 .btn-app:hover {
     color: #fff;
-    background-color: #b0564e;
-    border-color: #b0564e;
+    background-color: #007B98;
+    border-color: #007B98;
 }
 .btn-app:active,
 .btn-app.active,
 .open > .dropdown-toggle.btn-app {
     color: #fff;
-    background-color: #b0564e;
+    background-color: #007B98;
     background-image: none;
-    border-color: #b0564e;
+    border-color: #007B98;
 }
 .btn-app:active:hover,
 .btn-app.active:hover,
@@ -172,7 +176,7 @@ body {
 .btn-app.active.focus,
 .open > .dropdown-toggle.btn-app.focus {
     color: #fff;
-    background-color: #b0564e;
+    background-color: #007B98;
     border-color: #122b40;
 }
 .btn-app.disabled:hover,
@@ -184,11 +188,11 @@ fieldset[disabled] .btn-app:focus,
 .btn-app.disabled.focus,
 .btn-app[disabled].focus,
 fieldset[disabled] .btn-app.focus {
-    background-color: #b0564f;
-    border-color: #b0564e;
+    background-color: #00aed6;
+    border-color: #007B98;
 }
 .btn-app .badge {
-    color: #b0564f;
+    color: #00aed6;
     background-color: #fff;
 }
 
@@ -197,7 +201,7 @@ fieldset[disabled] .btn-app.focus {
 }
 
 .session-box .session-item {
-    border-top: dotted #b0564e 1px;
+    border-top: dotted #007B98 1px;
     padding-bottom: 10px;
 }
 
@@ -206,8 +210,8 @@ fieldset[disabled] .btn-app.focus {
 }
 
 .info-text-icon {
-    color: #b0564e;
-    margin-right: 8px;
+    color: #007B98;
+    margin-right: 2px;
 }
 
 .info-text {
